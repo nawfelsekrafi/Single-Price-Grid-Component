@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap");
+
+body {
+  font-family: "Karla", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  background-color: hsl(204, 43%, 93%);
+}
+
+#card {
+  height: 410px;
+  width: 636px;
+  margin: auto;
+  margin-top: 90px;
+  background-color: white;
+  border-radius: 9px;
+}
+
+h1,
+#price,
+#btn,
+#sub-title {
+  font-weight: 700;
+}
+
+#top-container {
+  padding: 30px 0px 0px 40px;
+}
+
+#top-container h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 24px;
+}
+
+#top-container #sub-title {
+  font-size: 18px;
+  color: hsl(71, 73%, 54%);
+}
+
+#top-container p {
+  color: hsl(218, 22%, 67%);
+}
+
+#left-container {
+  flex: 1;
+  border-bottom-left-radius: 9px;
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  padding-bottom: 38px;
+}
+
+#left-container h1,
+#right-container h1 {
+  padding: 30px 0px 0px 45px;
+  font-size: 18px;
+}
+
+#pr-month {
+  color: hsl(204, 43%, 93%);
+}
+
+#btn {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 40px 45px 0px 46px;
+  padding: 16px 81px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+#container {
+  display: flex;
+}
+
+#right-container {
+  flex: 1;
+  border-bottom-right-radius: 9px;
+  background-color: rgb(74, 190, 189);
+  color: white;
+}
+
+pre {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+
+#price-container {
+  display: flex;
+}
+
+#left-container p {
+  margin-top: 19px;
+  padding-left: 45px;
+}
+
+#price {
+  font-size: 32px;
+  padding-left: 45px;
+}
+
+#pr-month {
+  padding: 12px 0px 0px 13px;
+}
+
+footer {
+  margin-top: 100px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+#top-container-p,
+pre {
+  line-height: 24px;
+}
+
+@media only screen and (max-width: 376px) {
+  #card {
+    width: 92%;
+  }
+  #top-container {
+    padding: 30px 0px 0px 30px;
+  }
+  #container {
+    display: flex;
+    flex-direction: column;
+  }
+  #left-container {
+    border-radius: 0px;
+  }
+
+  #right-container {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  #left-container h1,
+  #right-container h1 {
+    padding: 30px 0px 0px 30px;
+  }
+
+  #price,
+  #left-container p {
+    padding-left: 30px;
+  }
+  footer {
+    margin-top: 420px;
+  }
+  pre {
+    margin: 1em -10px;
+  }
+
+  #top-container-p,
+  pre {
+    line-height: 24px;
+  }
+
+  #top-container h1 {
+    font-size: 22px;
+  }
+
+  #top-container #sub-title {
+    font-size: 16.6px;
+  }
+
+  #btn {
+    padding: 16px 98px;
+    margin: 22px 32px -11px 31px;
+  }
+}
